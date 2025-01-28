@@ -21,5 +21,8 @@
 
 - `git revert` untuk meng undo last commit dengan membuat commit baru (jadi tidak menghapus commit yang ingin di hapus/undo), cocok untuk menghapus perubahan yang telah terjadi di remote atau main branch
 
-- `git checkout` untuk pindah cabang atau pun commit
+- `git checkout` untuk pindah cabang, commit ataupun mengembalikan isi file tertentu ke versi sebelumnya
 - `git switch` untuk pindah cabang saja
+- `git restore` fleksibel untuk mengembalikan file ke versi sebelumnya atau membatalkan perubahan yang telah dilakukan.
+- `git fetch` hanya mengunduh commit terbaru dari remote repository ke local repository tanpa merge langsung.
+- `git pull` merupakan kombinasi dari git fetch dan git merge. Perintah ini akan mengunduh perubahan terbaru dari remote repository dan langsung menggabungkannya ke dalam branch lokal yang sedang aktif.

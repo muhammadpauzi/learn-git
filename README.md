@@ -18,3 +18,5 @@
 - `git branch -d` delete merged branch
 - `git branch -D` delete merged branch (meskipun unmerged branch)
 - `git log --oneline --graph --all --decorate`
+
+- `git revert` untuk meng undo last commit dengan membuat commit baru (jadi tidak menghapus commit yang ingin di hapus/undo), cocok untuk menghapus perubahan yang telah terjadi di remote atau main branch

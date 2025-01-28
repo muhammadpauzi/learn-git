@@ -20,3 +20,6 @@
 - `git log --oneline --graph --all --decorate`
 
 - `git revert` untuk meng undo last commit dengan membuat commit baru (jadi tidak menghapus commit yang ingin di hapus/undo), cocok untuk menghapus perubahan yang telah terjadi di remote atau main branch
+
+- `git checkout` untuk pindah cabang atau pun commit
+- `git switch` untuk pindah cabang saja
